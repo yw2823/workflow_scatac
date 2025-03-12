@@ -1,0 +1,7 @@
+channels:
+  - bioconda
+dependencies:
+  - sra-tools
+  - pigz
+  - fastqc
+  - trim-galore

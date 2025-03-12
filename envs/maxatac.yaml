@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - tensorflow=2.11.0 # see: https://github.com/MiraldiLab/maxATAC/issues/129#issue-2251830471
+  - numpy=1.24.2
+  - samtools
+  - bedtools
+  - wget
+  - ucsc-bedgraphtobigwig
+  - pigz
+  - graphviz
+  - pip
+  - pip:
+    - maxatac
